@@ -1,0 +1,20 @@
+{
+  "name": "learning-subject-by--yt",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/THEGAMEUNTOLD/learning-by-yt#readme",
+  "bugs": {
+    "url": "https://github.com/THEGAMEUNTOLD/learning-by-yt/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/THEGAMEUNTOLD/learning-by-yt.git"
+  },
+  "license": "ISC",
+  "author": "bharat choudhary",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
