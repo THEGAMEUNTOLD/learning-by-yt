@@ -404,3 +404,4 @@ Class components are written using ES6 classes.
 * Mostly replaced by functional components with Hooks
 * Rarely used in modern applications
 
+# Chapter 6: Understanding props
