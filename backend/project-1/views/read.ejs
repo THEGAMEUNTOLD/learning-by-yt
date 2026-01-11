@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Read Note</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-zinc-900 text-white min-h-screen">
+    <div class="p-10 max-w-3xl mx-auto">
+        <h1 class="text-3xl mb-4 font-bold">
+            <%= title %>
+        </h1>
+
+        <div class="bg-zinc-800 p-5 rounded whitespace-pre-wrap">
+            <%= content %>
+        </div>
+
+        <div class="mt-6 flex gap-4">
+            <a href="/edit/<%= title %>.txt" class="bg-yellow-500 px-4 py-2 rounded">
+                Edit
+            </a>
+
+            <a href="/" class="bg-blue-600 px-4 py-2 rounded">
+                 <- Back
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>
